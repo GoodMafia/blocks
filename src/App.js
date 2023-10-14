@@ -1,6 +1,6 @@
 import './Css/App.css';
 import Third from './Components/Third/Third';
-import { buildQueries } from '@testing-library/react';
+
 
 const blocks = [{speed: 10, price: 300, color: 'blue'}, {speed: 50, price: 450, color: 'green'}, {speed: 100, price: 550, color: 'red'}, {spped: 200, price: 1000, color: 'black'}];
 
