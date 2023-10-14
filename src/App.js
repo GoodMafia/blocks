@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './Css/App.css';
+import Third from './Components/Third/Third';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Third speed="10" price="300" color="blue"/>
+        <Third speed="50" price="450" color="green"/>
+        <Third speed="100" price="550" color="red"/>
+        <Third speed="200" price="1000" color="black"/>
     </div>
   );
 }
